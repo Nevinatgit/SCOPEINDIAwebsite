@@ -1,0 +1,38 @@
+.CDTop1{
+    background-color: blanchedalmond;
+    text-align: center;
+    height:300px;
+    padding-top: 80px;
+    align-items: center;
+
+}
+.CDTop2{
+    display: flex;
+    height:600px;
+    width:100%;
+}
+.margin{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.margin>div>p{
+    font-size: 30px;
+}
+.margin>div{
+    padding: 10px;
+}
+.contentz{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+}
+#B{
+    height:600px;
+    border-style: solid;
+    width:.5px;
+}
