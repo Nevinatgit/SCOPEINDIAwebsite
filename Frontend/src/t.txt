@@ -1,0 +1,8 @@
+ <Card Name="Java full stack" logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/182px-Java_programming_language_logo.svg.png"/>
+          <Card Name="Python full stack"  logo="https://th.bing.com/th/id/OIP.dJToM1TiZiJA0GYwzDHwjQAAAA?rs=1&pid=ImgDetMain"/>
+          <Card Name="PHP" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/182px-PHP-logo.svg.png"/>
+          <Card Name=".Net" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/684px-Microsoft_.NET_logo.svg.png?20200524040737"/>
+          <Card Name="Android Development" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/768px-Android_robot_head.svg.png?20190910085945"/>
+          <Card Name="Flutter" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Google-flutter-logo.svg/768px-Google-flutter-logo.svg.png?20210518211228"/>
+          <Card Name="MERN stack" logo="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png"/>
+          <Card Name="MEAN stack" logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Meanstack-624x250.jpg"/>
