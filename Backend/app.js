@@ -5,6 +5,7 @@ const Courses= require('./routes/Courses.js')
 const Student= require('./routes/Student.js')
 const {client} = require('./connect.js')
 const cors = require("cors")
+require('dotenv').config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 const path = require('path');
