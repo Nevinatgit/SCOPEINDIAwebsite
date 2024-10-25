@@ -1,0 +1,33 @@
+.LTop1{
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+   
+
+}
+.LTop1>div{
+    border-radius: 10%;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.LTop1>div>div>input{
+    width: 350px;
+}
+
+.LTop1>div>button{
+  
+    width: 350px;
+}

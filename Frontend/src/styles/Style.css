@@ -1,0 +1,408 @@
+
+/* App.css */
+
+.container {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .content {
+    background-color: aqua;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .content.show {
+    opacity: 1;
+  }
+  .E{
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+#CBody>div{
+   display: flex;
+   justify-content: center;
+   
+}
+#CBody>ul{
+   
+    list-style-type: disc;
+    
+}
+#CBody>ul>li{
+    margin-top: -16px;
+}
+.CH1{
+    padding: 20px;
+    border-style:solid;
+    height:510px;
+    width:260px;
+    
+}
+
+.CH2{
+    padding: 20px;
+    border-style:solid;
+
+}
+
+.card-container {
+    position: relative;
+    width: 270px; /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
+    overflow: hidden; /* Ensures no overflow of child elements */
+    border-style: groove;
+    padding: 10px;
+  }
+ 
+  .card-image {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(206, 126, 28, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+  }
+  
+  .card-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+  }
+  
+.CH1:hover{
+    animation: enlarge 2s ;
+}
+@keyframes enlarge{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+   
+}
+.Top1{
+    position:sticky;
+}
+.Top11{
+    position:sticky;
+    top:0;
+    background-color:darkblue;
+    width:100%;
+    height:70px;
+    padding: 20px;
+    display:flex;
+    gap:55%;
+    align-Items:center;
+}
+.Top111{
+  position:sticky;
+  top:0;
+  background-color:darkblue;
+  width:100%;
+  height:70px;
+  padding: 20px;
+  display:flex;
+  gap:74%;
+  color:white;
+  align-Items:center;
+}
+.Top1>img{
+    margin-left:10px
+}
+.Top11>div{
+    display:flex;
+    gap:30px;
+    color:white
+}
+
+.Top11>div>a{
+text-decoration:none;
+color:white
+}
+.Top2{
+    display: inline-flex;
+    background-color: rgb(6, 32, 41);
+    color: white;
+    width: 100%;
+}
+.Top2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width: 100%;
+
+}
+.Top2>div>div{
+    text-align: center;
+}
+.Top2>div>div>h1{
+    font-size: 90px;
+}
+
+.Top3{
+ 
+    background-image:url("https://scopeindia.org/images/slider_bg.jpg");
+    width:100%;
+    height:400px
+}
+.Top3>h1{
+    position:absolute;
+    left:500px;
+    margin:20px;
+    color:white
+}
+#Top31{
+    padding:50px;
+    display:flex;
+    gap:160px;
+    position:absolute;
+    left:50px
+}
+#Top31>div>img{
+    background-color:white;
+    width:180px;
+    height:170px;
+    border-style:solid;
+    border-radius:50%;
+    border-Color:white
+}
+
+.HTop5{
+    
+    width:97%;
+    min-height: 500px;
+    margin:20px;
+    border-style: groove;
+}
+.HTop5>:nth-child(1){
+  background-image: url("https://img.freepik.com/premium-vector/abstract-minimal-vector-blue-technology-background_104785-1710.jpg?w=1380");
+    text-align: center;
+}
+.soft{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    gap:40px;
+    padding:40px 130px 40px 130px;
+    background-color: aliceblue;
+    height: 100%;
+}
+
+
+.cards{
+ 
+   height:100%;
+}
+.HTop5>:nth-child(1)>h1{
+   
+    left:550px;
+    margin:20px;
+    color: white;
+}
+.HTop5>:nth-child(1)>p{
+   font-size: 20px;
+   color: white;
+}
+
+
+.HTop5>:nth-child(1){
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 40px;
+}
+
+
+.HTop7{
+   display: inline-flex;
+    width: 100%;
+    height: 570px;
+}
+.HTop7>:nth-child(1){
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    background-color: antiquewhite;
+}
+.HTop7>:nth-child(1)>h1{
+    font-size: 60px;
+    color:goldenrod;
+    display: block;
+    
+}
+.HTop7>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    height:100%;
+    background-color:aliceblue;
+}
+.HTop7>:nth-child(2)>p{
+    font-size: 24px;
+    color:darkkhaki;
+    font-weight: 500;
+}
+
+/* ReviewBox.css */
+.review-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+   width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  .review-box h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .reviews {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+  }
+  
+  .review:last-child {
+    border-bottom: none;
+  }
+  
+  .review h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .review p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .rating {
+    font-size: 18px;
+    color: #f39c12; /* Gold color for stars */
+  }
+  
+  @media (max-width: 600px) {
+    .review-box {
+      padding: 12px;
+    }
+  
+    .review-box h2 {
+      font-size: 20px;
+    }
+  
+    .review h3 {
+      font-size: 16px;
+    }
+  
+    .review p {
+      font-size: 14px;
+    }
+  
+    .rating {
+      font-size: 16px;
+    }
+  }
+  
+
+ /* Style.css */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth sliding effect */
+  width: 100%; /* Ensure slider takes full width */
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  width: 500px; /* Ensure each slide takes full width */
+}
+
+.review-box-wrapper {
+  flex: 1 0 33%; /* Adjust based on reviewsPerSlide */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  padding: 0 10px; /* Optional: adjust based on design */
+ 
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.HTop7:nth-child(2){
+  padding: 30px;
+}
